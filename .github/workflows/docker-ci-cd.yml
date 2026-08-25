@@ -50,7 +50,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t krumil/node-express-app:1.0 .
+        run: docker build -t 362245/node-express-app:1.0 .
 
       - name: Push Docker image
-        run: docker push krumil/node-express-app:1.0
+        run: docker push 362245/node-express-app:1.0
