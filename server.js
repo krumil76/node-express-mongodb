@@ -33,7 +33,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to AWS EC2 Deployment" });
+  res.json({ message: "Welcome to AWSS EC2 Deployment" });
 });
 
 require("./app/routes/turorial.routes")(app);
